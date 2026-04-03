@@ -1,0 +1,58 @@
+@font-face {
+    src: url("digital-7.ttf");
+    font-family: 'digital-7';
+}
+
+body {
+    margin: 0;
+    background: #182042;
+    color: #f4f6fb;
+    text-align: center;
+    font-family: 'digital-7', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorecard {
+    height: 150px;
+    width: 200px;
+    margin: 50px 100px;
+    padding: 10px 20px;
+    background: #090000;
+    font-size: 30px;
+    color: #f84661;
+    border-radius: 12px;
+}
+
+button {
+    margin: 20px 6px;
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    background: #182042;
+    color: #f4f6fb;
+    border: 2px solid #f4f6fb;
+    border-radius: 6px;
+}
+
+#ng {
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+.label {
+    margin: 10px
+}
+
+/* COLORS
+DARKBLUE: 182042
+BLACK: 090000
+RED: f84661
+WHITE: f4f6fb
+LIGHTBLUE: adbadc
+*/

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <h1 class = "label">SCORE</h1>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <div class = "scorecard">
+                    <h1 id = "home-el">0</h1>
+                </div>
+                <div>
+                    <button onclick = "add1PointToHome()">+1</button>
+                    <button onclick = "add2PointToHome()">+2</button>
+                    <button onclick = "add3PointToHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <div class = "scorecard">
+                    <h1 id = "guest-el">0</h1>
+                </div>
+                <div>
+                    <button onclick = "add1PointToGuest()">+1</button>
+                    <button onclick = "add2PointToGuest()">+2</button>
+                    <button onclick = "add3PointToGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id = "ng" onclick = "reset()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
